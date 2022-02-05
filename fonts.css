@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Brandon';
+    src: local('Brandon Text Bold'), local('BrandonText-Bold'),
+        url('fonts/brandontext-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon';
+    src: local('Brandon Text Bold Italic'), local('BrandonText-BoldItalic'),
+        url('fonts/brandontext-bolditalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon';
+    src: local('Brandon Text Light'), local('BrandonText-Light'),
+        url('fonts/brandontext-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon';
+    src: local('Brandon Text Regular'), local('BrandonText-Regular'),
+        url('fonts/brandontext-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon';
+    src: local('Brandon Text Regular Italic'), local('BrandonText-RegularItalic'),
+        url('fonts/brandontext-regularitalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brandon';
+    src: local('Brandon Text Medium'), local('BrandonText-Medium'),
+        url('fonts/brandontext-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

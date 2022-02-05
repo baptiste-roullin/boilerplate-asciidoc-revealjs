@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-asciidoc-revealjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Baptiste Roullin",
+  "license": "MIT",
+  "dependencies": {
+    "@asciidoctor/reveal.js": "*",
+    "asciidoctor": "^2.2.5",
+    "reveal.js-menu": "^2.1.0",
+    "reveal.js-tableofcontents": "^1.0.1"
+  }
+}

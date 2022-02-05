@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"emeraldwalk.runonsave": {
+			"commands": [
+				{
+					"match": "\\.adoc$",
+					"cmd": "npx asciidoctor-revealjs ./index.adoc"
+				},
+				{
+					"match": "\\.css$",
+					"cmd": "npx asciidoctor-revealjs ./index.adoc"
+				}
+			]
+		},
+	},
+	"extensions": {
+		"recommendations": [
+			"asciidoctor.asciidoctor-vscode",
+			"tariky.easy-snippet-maker",
+			"ritwickdey.liveserver",
+			"christian-kohler.path-intellisense",
+			"emeraldwalk.RunOnSave"
+		]
+	}
+}

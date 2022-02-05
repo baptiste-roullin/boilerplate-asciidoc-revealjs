@@ -1,0 +1,35 @@
+{
+	"note": {
+		"prefix": "note",
+		"body": [
+			"[.notes]",
+			"--",
+			"$1",
+			"--"
+		],
+		"description": ""
+	},
+	"Insert image block": {
+		"prefix": "img",
+		"body": "image::${TM_SELECTED_TEXT/images\\/(.*)/$1/}$1[]",
+		"description": "Insert image block"
+	},
+	"columns": {
+		"prefix": "cols",
+		"body": [
+			"[.columns]",
+			"=== $1",
+			"",
+			"[.column]",
+			"--",
+			"$2",
+			"--",
+			"",
+			"[.column]",
+			"--",
+			"$3",
+			"--"
+		],
+		"description": ""
+	}
+}

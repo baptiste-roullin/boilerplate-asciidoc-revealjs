@@ -1,0 +1,145 @@
+/*@import url(fonts.css); */
+.reveal {
+  font-family: Brandon, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #363636;
+}
+
+
+.fit.imageblock img {
+	max-height: 50vh !important;
+}
+
+
+.w-auto.imageblock img {
+  height: 100% !important;
+  width:auto !important
+}
+
+.w-auto.imageblock  {
+  height: 50vh !important;
+}
+
+
+.imageblock img {
+	max-height: 70vh !important;
+}
+
+.reveal > .overlay {
+	background: white !important;
+}
+
+
+
+.reveal .controls .navigate-down.highlight,
+.reveal .controls .navigate-right.highlight {
+	animation: none !important;
+}
+
+.reveal .slides {
+	text-align: left !important;
+}
+
+.reveal .slides .center {
+	text-align: center;
+}
+
+.reveal .slides .imageblock {
+	text-align: center;
+}
+
+.reveal section:not(.stack) {
+  height: 100%;
+  overflow-y:auto !important
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 {
+	text-transform: none;
+}
+
+.reveal h2 {
+	font-size: 3rem !important;
+  margin-bottom: 40px !important;
+}
+
+.reveal .center h2 {
+	font-size: 4rem !important;
+  margin-bottom: 0 !important
+}
+
+.slides ul li {
+	list-style-type: '– ';
+}
+
+.paragraph + .ulist, .paragraph + .olist  {
+    margin-top: -1em;
+}
+
+.reveal p {
+	margin: 30px 0 !important;
+	line-height: 1.45 !important;
+}
+
+
+.reveal .slide-content .small {
+	font-size: 0.7em !important;
+}
+
+.reveal .smallp p, .reveal .smallp li::marker {
+	font-size: 20px !important;
+  margin: 20px 0 !important
+}
+
+.reveal .center .admonitionblock table {
+	margin: auto !important;
+}
+
+.reveal .admonitionblock table {
+	margin: 1em 0 !important;
+}
+
+.reveal .admonitionblock table {
+	font-weight: bold !important;
+}
+
+.columns.chapo .slide-content {
+	flex-wrap: wrap !important;
+}
+
+.columns.chapo .slide-content .column:first-child {
+	flex-basis: 100% !important;
+}
+
+	.columns .slide-content .imageblock.column:last-child {
+	display: flex;
+	justify-content: center;
+}
+
+.column .content {
+	display: flex !important;
+}
+
+.column .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.column img {
+	max-height: 48vh !important;
+	width: auto !important;
+}
+
+.reveal-viewport .searchbox {
+  top:2em !important;
+  right:2em !important;
+}
+
+.reveal-viewport .searchbox input {
+  height:3em !important;
+}
