@@ -7,8 +7,6 @@
 :revealjs_progress: false
 :revealjs_mouseWheel: false
 :revealjs_margin: 0.2
-:revealjs_width: 1300
-:revealjs_height: 700
 :revealjs_defaultTiming: 0
 :revealjs_previewLinks: true
 :icons: font
@@ -24,79 +22,4 @@
 
 = Title
 
-Test
-
-TestTest
-v
-
-Test
-Test
-Test
-Test
-Test
-Test
-Test
-Test
-Test
-
-Test
-
-Test
-Test
-
-Test
-
-Test
-
-
-Test
-
-Test
-
-
-Test
-
-== test
-
-test
-
-=== test
-
-
-test
-
-
-TestTest
-v
-
-Test
-Test
-Test
-Test
-Test
-Test
-Test
-Test
-Test
-
-Test
-
-Test
-Test
-
-Test
-
-Test
-
-
-Test
-
-Test
-
-
-Test
-
-
-== test
-
-test
+Hi, what's up, howdy

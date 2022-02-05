@@ -1,8 +1,6 @@
 /*@import url(fonts.css); */
 .reveal {
   font-family: Brandon, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
-  font-weight: normal;
   color: #363636;
 }
 
@@ -30,8 +28,6 @@
 	background: white !important;
 }
 
-
-
 .reveal .controls .navigate-down.highlight,
 .reveal .controls .navigate-right.highlight {
 	animation: none !important;
@@ -49,10 +45,10 @@
 	text-align: center;
 }
 
-.reveal section:not(.stack) {
+/*.reveal section:not(.stack) {
   height: 100%;
   overflow-y:auto !important
-}
+}*/
 
 .reveal h1,
 .reveal h2,
