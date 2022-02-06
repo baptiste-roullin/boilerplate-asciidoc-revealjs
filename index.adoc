@@ -7,6 +7,8 @@
 :revealjs_progress: false
 :revealjs_mouseWheel: false
 :revealjs_margin: 0.2
+:revealjs_width: 1200
+:revealjs_height: 700
 :revealjs_defaultTiming: 0
 :revealjs_previewLinks: true
 :icons: font
@@ -19,7 +21,8 @@
 :imagesdir: ./images
 
 
-
+[.center]
 = Title
 
 Hi, what's up, howdy
+

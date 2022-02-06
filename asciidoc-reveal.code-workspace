@@ -21,7 +21,6 @@
 	"extensions": {
 		"recommendations": [
 			"asciidoctor.asciidoctor-vscode",
-			"tariky.easy-snippet-maker",
 			"ritwickdey.liveserver",
 			"christian-kohler.path-intellisense",
 			"emeraldwalk.RunOnSave"
