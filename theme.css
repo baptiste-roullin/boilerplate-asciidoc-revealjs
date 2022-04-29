@@ -1,0 +1,503 @@
+/**
+
+  fork of robot-lung
+
+  A hot pink theme for Reveal.js with Roboto fonts and a colorful border.
+  By Josh Dzielak, https://dzello.com/, License MIT
+
+
+  }
+
+*/
+
+	@import url(fonts.css);
+
+.reveal {
+	font-family: Brandon, Verdana, Geneva, Tahoma, sans-serif;
+	color: #363636;
+	font-size: 28px;
+}
+
+
+/* enclosing border
+
+Compared to the original Robot Lung Theme, it's now CSS only.
+
+It requires this parameter to avoids overlaps :
+:revealjs_margin: 0.2
+
+*/
+.reveal {
+	box-shadow: inset 0 0 0 15px hsla(5,77%,37%);
+}
+
+.reveal.has-dark-background {
+	box-shadow: none;
+}
+
+
+
+
+.reveal .slides {
+	text-align: left !important;
+}
+
+.reveal .slides .center {
+	text-align: center;
+}
+
+/*
+.fit.imageblock img {
+	max-height: 50vh !important;
+}*/
+
+
+.slide-content .stretch.imageblock {
+	display: flex;
+}
+
+.w-auto.imageblock img {
+	width:auto !important
+}
+
+.w-auto.imageblock {
+	height: 50vh !important;
+}
+
+/*
+.reveal .imageblock.portrait img {
+	width: auto !important;
+	max-width: none ;
+	min-width: none ;
+	height: 100% !important;
+}
+*/
+
+.reveal .imageblock img, .reveal video {
+  max-width: 100% ;
+  max-height: 50vh;
+  margin: auto;
+  height: auto !important
+ }
+
+.reveal .column .imageblock img {
+width: auto;
+max-height: 48vh;
+margin: auto;
+height: auto !important
+ }
+
+
+.reveal > .overlay {
+	background: white !important;
+}
+
+.reveal .controls .navigate-down.highlight,
+.reveal .controls .navigate-right.highlight {
+	animation: none !important;
+}
+
+
+.reveal .slides .imageblock {
+	text-align: center;
+}
+
+/*.reveal section:not(.stack) {
+	height: 100%;
+	overflow-y:auto !important
+}*/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 {
+	text-transform: none;
+	font-family: inherit;
+}
+
+.reveal h1 {
+	font-size: 4rem !important;
+}
+
+.reveal h2 {
+	font-size: 3rem !important;
+	margin-bottom: 40px !important;
+}
+
+.reveal .center h2 {
+	font-size: 4rem !important;
+	margin-bottom: 0 !important
+}
+
+.slides ul li {
+	list-style-type: '– ';
+}
+.reveal .slides ul p {
+	margin: 15px 0;
+}
+
+.paragraph + .ulist, .paragraph + .olist {
+	margin-top: -1em;
+}
+
+.reveal .slides p {
+	margin: 30px 0;
+	line-height: 1.45 !important;
+}
+
+
+.reveal .slide-content .small {
+	font-size: 0.7em !important;
+}
+
+.reveal .smallp p, .reveal .smallp li::marker {
+	font-size: 20px !important;
+	margin: 20px 0 !important
+}
+
+.reveal .center .admonitionblock table {
+	margin: auto !important;
+}
+
+.reveal .admonitionblock table {
+	margin: 1em 0 !important;
+}
+
+.reveal .admonitionblock table {
+	font-weight: bold !important;
+}
+.columns.with-subh .slide-content {
+	flex-wrap: wrap !important;
+}
+
+.columns.with-subh .slide-content  > div:first-child {
+	flex-basis: 100% !important;
+}
+
+.columns .slide-content  > div.imageblock:last-child {
+	display: flex;
+	justify-content: center;
+}
+
+.slide-content > div .content {
+	display: flex !important;
+}
+
+.slide-content > div .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.columns.slide-content > div img {
+	max-height: 48vh !important;
+	width: auto !important;
+}
+
+.reveal-viewport .searchbox {
+	top:2em !important;
+	right:2em !important;
+}
+
+.reveal-viewport .searchbox input {
+	height:3em !important;
+}
+
+
+@keyframes rainbow {
+  0%,
+  100% {
+    color: #7ccdea;
+  }
+  16% {
+    color: #0074d9;
+  }
+  32% {
+    color: #2ecc40;
+  }
+  48% {
+    color: #ffdc00;
+  }
+  64% {
+    color: #b10dc9;
+  }
+  80% {
+    color: #ff4136;
+  }
+}
+
+  .rainbow {
+	  font-weight: bold;
+  transition: color 2s ease-in-out;
+  -moz-transition: color 2s ease-in-out;
+  text-decoration: none;
+  animation: rainbow 8s infinite;
+}
+
+
+
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #141414; }
+
+.reveal .controls {
+  right: 50px;
+  bottom: 50px; }
+
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #fff;
+  background-color: #fff; }
+
+
+
+::selection {
+  color: #fff;
+  background: #ffc0d5;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #ffc0d5;
+  text-shadow: none; }
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #141414;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 2.6em; }
+
+.reveal h2 {
+  font-size: 2.2em; }
+
+.reveal h3 {
+  font-size: 1.7em; }
+
+.reveal h4 {
+  font-size: 1.4em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/*
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+  */
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super; }
+
+.reveal sub {
+  vertical-align: sub; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #FF4081;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #ff8db3;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #f30053; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  /*border: 4px solid #363636;*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+}
+
+.reveal section img.plain {
+  border: 0;
+  box-shadow: none; }
+
+.reveal a img {
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  transition: all .15s linear; }
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #FF4081;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {
+  color: hsla(5,77%,37%)
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2);
+  color: #FF4081; }
+
+.reveal .progress span {
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.reveal .progress {
+  z-index: 1000;
+  color: #FF80A1; }
