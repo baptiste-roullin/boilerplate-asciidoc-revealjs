@@ -9,7 +9,7 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 
 ## Basic demo of the result
 
-[This way.](https://baptiste-roullin.github.io/boilerplate-asciidoc-revealjs/)
+[Please this way.](https://baptiste-roullin.github.io/boilerplate-asciidoc-revealjs/)
 
 
 ## Features
@@ -28,9 +28,8 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 1. Download the project.
 2. Run `npm install`.
 3. Install the suggested extensions, grabbed from the `.code-workspace` file.
-4. Copy the content of `snippets.json` in your VS Code settings. The easiest way to do this is : Ctrl+Shift+P, type 'configure snippet', choose asciidoc and paste the snippets.
-5. Every time you save, the presentation is generated, thanks to the Run on Save extension and its settings in the `.code-workspace` file.
-6. To see the result, just open index.html.
+4. Every time you save, the presentation is generated, thanks to the Run on Save extension and its settings in the `.code-workspace` file.
+5. To see the result, just open index.html.
 
 ## Preview
 
