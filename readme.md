@@ -2,7 +2,7 @@
 
 
 
-Writing a full [Reveal.js](https://revealjs.com/) presentation in a separate file with the [Asciidoc](https://docs.asciidoctor.org/reveal.js-converter/latest/) format is great, but I found the documentation incomplete and the setup painful. 
+Writing a full [Reveal.js](https://revealjs.com/) presentation in a separate file with the [Asciidoc](https://docs.asciidoctor.org/reveal.js-converter/latest/) format is great, but I found the documentation incomplete and the setup painful.
 
 So here is a simple boilerplate. Designed with VS Code in mind.
 
@@ -13,7 +13,7 @@ Features
 - Plugins pre-installed:  navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+P`)
 - Some snippets
 - Live reload
-- A simple theme borrowed from [here](https://revealjs-themes.dzello.com/robot-lung.html#), with some tweaks.
+- A simple theme borrowed from [here](https://revealjs-themes.dzello.com/robot-lung.html#), with some tweaks and simplifications.
 
 
 
@@ -23,7 +23,7 @@ Features
 2. Run `npm install`.
 3. Install the suggested extensions, grabbed from the `.code-workspace` file.
 4. Copy the content of `snippets.json` in your VS Code settings. The easiest way to do this is : Ctrl+Shift+P, type 'configure snippet', choose asciidoc and paste the snippets.
-5. Every time you save, the presentation is generated, thanks to the Run on Save extension and its settings in the `.code-workspace` file. 
+5. Every time you save, the presentation is generated, thanks to the Run on Save extension and its settings in the `.code-workspace` file.
 6. To see the result, just open index.html.
 
 ## Preview
