@@ -45,5 +45,5 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 
 ## Know issues
 
-- If you're in that weird tiny minority using accented characters, the search inside slides will work very unpredictably. Hé oui. Sorry about that.
+- If you're in that weird tiny minority using accented characters, the search inside slides will work very unpredictably. _Hé oui_. Sorry about that.
 - Some overlap issues with big pictures.
