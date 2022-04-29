@@ -16,11 +16,10 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 
 
 - Better default global parameters
-- Plugins pre-installed:  navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+P`)
+- Plugins pre-installed:  navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+F`)
 - Some snippets
 - Live reload
 - A simple theme borrowed from [here](https://revealjs-themes.dzello.com/robot-lung.html#), with some tweaks and simplifications.
-
 
 
 ## How-to
@@ -43,3 +42,8 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 - `note` : Add a presenter note block.
 - `cols` : Add  a slide with two columns equal in size, using [this feature](https://docs.asciidoctor.org/reveal.js-converter/latest/converter/syntax/layout/#columns-layout).
 - `cols-subh` : Add  a slide with a subheading and two columns beneath.
+
+## Know issues
+
+- If you're in that weird tiny minority using accented characters, the search inside slides will work very unpredictably. Hé oui. Sorry about that.
+- Some overlap issues with big pictures.
