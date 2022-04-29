@@ -25,8 +25,11 @@ Features
 4. Copy the content of `snippets.json` in your VS Code settings. The easiest way to do this is : Ctrl+Shift+P, type 'configure snippet', choose asciidoc and paste the snippets.
 5. Every time you save, the presentation is generated, thanks to the Run on Save extension and its settings in the `.code-workspace` file. 
 6. To see the result, just open index.html.
-7. To preview changes without reloading the browser, launch the Live Server extension.
 
+## Preview
+
+* For a full preview, launch the Live Server extension.
+* For a quick preview without full style and Reveal-specific syntax, use the command `AsciiDoc: Open Preview to the Side`.
 
 
 ## Snippets
