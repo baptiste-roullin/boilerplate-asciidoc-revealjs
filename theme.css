@@ -8,9 +8,9 @@
 
   }
 
-*/
+**/
 
-	@import url(fonts.css);
+	/** @import url(fonts.css); **/
 
 .reveal {
 	font-family: Brandon, Verdana, Geneva, Tahoma, sans-serif;
