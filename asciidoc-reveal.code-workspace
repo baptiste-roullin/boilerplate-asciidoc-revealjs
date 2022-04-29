@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
+		"asciidoc.preview.attributes": {
+  			"imagesdir": "./images",
+  			"icons":"font"
+  },
 		"emeraldwalk.runonsave": {
 			"commands": [
 				{
@@ -17,6 +21,7 @@
 				}
 			]
 		},
+		"git.enabled": false,
 	},
 	"extensions": {
 		"recommendations": [
