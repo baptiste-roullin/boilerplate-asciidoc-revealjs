@@ -38,7 +38,10 @@ So here is a simple boilerplate for a better author experience (AX :-3 ). Design
 
 ## Snippets
 
-- `img`: Add and image. steps: type `/images` , use the path autocompletion plugin  to insert an  image from the images folder, select the path, then launch the snippet. The result shows only the file name, since the global paramater `imagesdir` is set to `/images`. Yeah, that's the easiest workflow I could think of.
+- `img`: Add and image. steps:
+  * type `/images` , hit ctrl+Space to run the path auto-complete and select the file you want
+  * Ctrl+L to select the line
+  * Launch the snippet.
 - `note` : Add a presenter note block.
 - `cols` : Add  a slide with two columns equal in size, using [this feature](https://docs.asciidoctor.org/reveal.js-converter/latest/converter/syntax/layout/#columns-layout).
 - `cols-subh` : Add  a slide with a subheading and two columns beneath.
