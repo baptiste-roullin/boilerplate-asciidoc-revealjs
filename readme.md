@@ -15,7 +15,7 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 ## Features
 
 
-- Better default global parameters
+- Preset global parameters
 - Plugins pre-installed:  navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+F`)
 - Some snippets
 - Live reload
