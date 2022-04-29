@@ -16,7 +16,7 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 
 
 - Preset global parameters
-- Plugins pre-installed:  navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+F`)
+- Plugins pre-installed: navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+F`)
 - Some snippets
 - Live reload
 - A simple theme borrowed from [here](https://revealjs-themes.dzello.com/robot-lung.html#), with some tweaks and simplifications.
@@ -26,7 +26,7 @@ So here is a simple boilerplate. Designed with VS Code in mind.
 
 1. Download the project.
 2. Run `npm install`.
-3. Install the suggested extensions, grabbed from the `.code-workspace` file.
+3. Install the suggested extensions in VS Code, grabbed from the `.code-workspace` file.
 4. Every time you save, the presentation is generated, thanks to the Run on Save extension and its settings in the `.code-workspace` file.
 5. To see the result, just open index.html.
 
