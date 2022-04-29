@@ -2,7 +2,7 @@
 :revealjs_mouseWheel: true
 :doctype: book
 :docinfo: shared-footer
-:revealjs_customtheme: theme.css
+:revealjs_customtheme: ./assets/theme.css
 :revealjs_hash: true
 :revealjs_progress: false
 :revealjs_mouseWheel: false
@@ -25,4 +25,15 @@
 = Title
 
 Hi, what's up, howdy
+
+== Image
+
+image:example.jpg[]
+
+=== Vindieu
+
+[%step]
+- Jésus
+- Marie
+- Joseph !
 
