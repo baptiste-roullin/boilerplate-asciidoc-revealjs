@@ -39,9 +39,9 @@ So here is a simple boilerplate for a better author experience (AX :-3 ). Design
 ## Snippets
 
 - `img`: Add and image. steps:
-  * type `/images` , hit ctrl+Space to run the path auto-complete and select the file you want
-  * Ctrl+L to select the line
-  * Launch the snippet.
+  1. type `/images` , hit ctrl+Space to run the path auto-complete and select the file you want
+  2. Ctrl+L to select the line
+  3. Launch the snippet.
 - `note` : Add a presenter note block.
 - `cols` : Add  a slide with two columns equal in size, using [this feature](https://docs.asciidoctor.org/reveal.js-converter/latest/converter/syntax/layout/#columns-layout).
 - `cols-subh` : Add  a slide with a subheading and two columns beneath.
