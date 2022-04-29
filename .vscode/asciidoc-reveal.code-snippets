@@ -1,5 +1,6 @@
 {
 	"note": {
+		"scope":"asciidoc",
 		"prefix": "note",
 		"body": [
 			"[.notes]",
@@ -10,11 +11,13 @@
 		"description": "Add a presenter note block."
 	},
 	"Insert image block": {
+		"scope":"asciidoc",
 		"prefix": "img",
 		"body": "image::${TM_SELECTED_TEXT/\\/images\\/(.*)/$1/}$1[]",
 		"description": "Insert image block"
 	},
 	"columns": {
+		"scope":"asciidoc",
 		"prefix": "cols",
 		"body": [
 			"[.columns]",
@@ -33,6 +36,7 @@
 		"description": "Slide with two columns, equal in size"
 	},
 	"columns with sub-heading": {
+		"scope":"asciidoc",
 		"prefix": "cols-subh",
 		"body": [
 			"[.columns.with-subh]",
@@ -57,6 +61,7 @@
 	},
 	"center": {
 		"description": "Center the content in both axis. To be placed before a heading.",
+		"scope":"asciidoc",
 		"prefix": "center",
 		"body": [
 			"[.center]"
