@@ -6,7 +6,13 @@ Writing a full [Reveal.js](https://revealjs.com/) presentation in a separate fil
 
 So here is a simple boilerplate. Designed with VS Code in mind.
 
-Features
+
+## Basic demo of the result
+
+[This way.](https://baptiste-roullin.github.io/boilerplate-asciidoc-revealjs/)
+
+
+## Features
 
 
 - Better default global parameters
