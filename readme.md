@@ -16,7 +16,7 @@ So here is a simple boilerplate for a better author experience (AX). Designed wi
 
 
 - Preset global parameters
-- Plugins pre-installed: navigation menu (`M` key to lanch) and full-text search (`Ctrl+Shift+F`)
+- Plugins pre-installed: navigation menu (`M` key to launch) and full-text search (`Ctrl+Shift+F`)
 - Some snippets
 - Live reload
 - A simple theme borrowed from [here](https://revealjs-themes.dzello.com/robot-lung.html#), with some tweaks and simplifications.
