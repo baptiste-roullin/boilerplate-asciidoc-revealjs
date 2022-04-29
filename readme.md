@@ -4,7 +4,7 @@
 
 Writing a full [Reveal.js](https://revealjs.com/) presentation in a separate file with the [Asciidoc](https://docs.asciidoctor.org/reveal.js-converter/latest/) format is great, but I found the documentation incomplete and the setup a bit painful.
 
-So here is a simple boilerplate for a better author experience (AX). Designed with VS Code in mind.
+So here is a simple boilerplate for a better author experience (AX :-3 ). Designed with VS Code in mind.
 
 
 ## Basic demo of the result
