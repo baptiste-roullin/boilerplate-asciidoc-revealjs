@@ -7,6 +7,11 @@ Reveal.configure({
 		hideMissingTitles: true,
 	}
 })
+
+/* #region   */
+
 Reveal.registerPlugin(RevealMenu)
 Reveal.registerPlugin(RevealSearch)
 
+
+/* #endregion */

@@ -1,6 +1,6 @@
 /**
 
-  [ robot-lung ]
+  fork of robot-lung
 
   A hot pink theme for Reveal.js with Roboto fonts and a colorful border.
   By Josh Dzielak, https://dzello.com/, License MIT
@@ -8,7 +8,246 @@
 
   }
 
+**/
+
+	@import url(./fonts.css);
+
+.reveal {
+	font-family: Brandon, Verdana, Geneva, Tahoma, sans-serif;
+	color: #363636;
+	font-size: 28px;
+}
+
+
+/* enclosing border
+
+Compared to the original Robot Lung Theme, it's now CSS only.
+
+It requires this parameter to avoids overlaps :
+:revealjs_margin: 0.2
+
 */
+.reveal {
+	box-shadow: inset 0 0 0 15px hsla(5,77%,37%);
+}
+
+.reveal.has-dark-background {
+	box-shadow: none;
+}
+
+
+
+
+.reveal .slides {
+	text-align: left !important;
+}
+
+.reveal .slides .center {
+	text-align: center;
+  display: flex !important;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/*
+.fit.imageblock img {
+	max-height: 50vh !important;
+}*/
+
+
+.slide-content .stretch.imageblock {
+	display: flex;
+}
+
+.w-auto.imageblock img {
+	width:auto !important
+}
+
+.w-auto.imageblock {
+	height: 50vh !important;
+}
+
+/*
+.reveal .imageblock.portrait img {
+	width: auto !important;
+	max-width: none ;
+	min-width: none ;
+	height: 100% !important;
+}
+*/
+
+.reveal .imageblock img, .reveal video {
+  max-width: 100% ;
+  max-height: 70vh;
+  margin: auto;
+  height: auto !important
+ }
+
+.reveal .column .imageblock img {
+width: auto;
+max-height: 70vh;
+margin: auto;
+height: auto !important
+ }
+
+
+.reveal > .overlay {
+	background: white !important;
+}
+
+.reveal .controls .navigate-down.highlight,
+.reveal .controls .navigate-right.highlight {
+	animation: none !important;
+}
+
+
+.reveal .slides .imageblock {
+	text-align: center;
+}
+
+/*.reveal section:not(.stack) {
+	height: 100%;
+	overflow-y:auto !important
+}*/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 {
+	text-transform: none;
+	font-family: inherit;
+}
+
+.reveal h1 {
+	font-size: 4rem !important;
+}
+
+.reveal h2 {
+	font-size: 3rem !important;
+	margin-bottom: 40px !important;
+}
+
+.reveal .center h2 {
+	font-size: 4rem !important;
+	margin-bottom: 0 !important
+}
+
+.slides ul li {
+	list-style-type: '– ';
+}
+.reveal .slides ul p {
+	margin: 15px 0;
+}
+
+.paragraph + .ulist, .paragraph + .olist {
+	margin-top: -1em;
+}
+
+.reveal .slides p {
+	margin: 30px 0;
+	line-height: 1.45 !important;
+}
+
+
+.reveal .slide-content .small {
+	font-size: 0.7em !important;
+}
+
+.reveal .smallp p, .reveal .smallp li::marker {
+	font-size: 20px !important;
+	margin: 20px 0 !important
+}
+
+.reveal .smallp ul {
+	margin: -30px 100px 0  0 !important
+}
+
+.reveal .smallp .content {
+  padding: 0 !important
+}
+
+.reveal .center .admonitionblock table {
+	margin: auto !important;
+}
+
+.reveal .admonitionblock table {
+	margin: 1em 0 !important;
+}
+
+.reveal .admonitionblock table {
+	font-weight: bold !important;
+}
+.columns.with-subh .slide-content {
+	flex-wrap: wrap !important;
+}
+
+.columns.with-subh .slide-content  > div:first-child {
+	flex-basis: 100% !important;
+}
+
+.columns .slide-content  > div.imageblock:last-child {
+	display: flex;
+	justify-content: center;
+}
+
+.slide-content > div .content {
+	display: flex !important;
+}
+
+.slide-content > div .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.columns.slide-content > div img {
+	max-height: 48vh !important;
+	width: auto !important;
+}
+
+.reveal-viewport .searchbox {
+	top:2em !important;
+	right:2em !important;
+}
+
+.reveal-viewport .searchbox input {
+	height:3em !important;
+}
+
+
+@keyframes rainbow {
+  0%,
+  100% {
+    color: #7ccdea;
+  }
+  16% {
+    color: #0074d9;
+  }
+  32% {
+    color: #2ecc40;
+  }
+  48% {
+    color: #ffdc00;
+  }
+  64% {
+    color: #b10dc9;
+  }
+  80% {
+    color: #ff4136;
+  }
+}
+
+  .rainbow {
+	  font-weight: bold;
+  transition: color 2s ease-in-out;
+  -moz-transition: color 2s ease-in-out;
+  text-decoration: none;
+  animation: rainbow 8s infinite;
+}
+
+
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #141414; }
 
@@ -82,12 +321,13 @@ body {
   margin: 20px 0;
   line-height: 1.3; }
 
-/* Ensure certain elements are never larger than the slide itself */
+/*
 .reveal img,
 .reveal video,
 .reveal iframe {
   max-width: 95%;
   max-height: 95%; }
+  */
 
 .reveal strong,
 .reveal b {
@@ -103,8 +343,6 @@ body {
   text-align: left;
   margin: 0 0 0 1em; }
 
-.reveal ol {
-  list-style-type: decimal; }
 
 .reveal ul {
   list-style-type: disc; }
@@ -274,3 +512,10 @@ body {
 .reveal .progress {
   z-index: 1000;
   color: #FF80A1; }
+
+
+
+
+  .slide-menu-wrapper .slide-menu {
+    width: 500px !important;
+  }

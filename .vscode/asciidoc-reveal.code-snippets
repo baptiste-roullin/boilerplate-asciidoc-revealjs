@@ -1,0 +1,70 @@
+{
+	"note": {
+		"scope":"asciidoc",
+		"prefix": "note",
+		"body": [
+			"[.notes]",
+			"--",
+			"$1",
+			"--"
+		],
+		"description": "Add a presenter note block."
+	},
+	"Insert image block": {
+		"scope":"asciidoc",
+		"prefix": "img",
+		"body": "image::${TM_SELECTED_TEXT/\\/images\\/(.*)/$1/}$1[]",
+				"description": "Insert image block"
+	},
+	"columns": {
+		"scope":"asciidoc",
+		"prefix": "cols",
+		"body": [
+			"[.columns]",
+			"=== $1",
+			"",
+			"[.column]",
+			"--",
+			"$2",
+			"--",
+			"",
+			"[.column]",
+			"--",
+			"$3",
+			"--"
+		],
+		"description": "Slide with two columns, equal in size"
+	},
+	"columns with sub-heading": {
+		"scope":"asciidoc",
+		"prefix": "cols-subh",
+		"body": [
+			"[.columns.with-subh]",
+			"=== $1",
+			"",
+			"[.subh]",
+			"--",
+			"$2",
+			"--",
+			"",
+			"[.column]",
+			"--",
+			"$3",
+			"--",
+			"",
+			"[.column]",
+			"--",
+			"$4",
+			"--"
+		],
+		"description": "Slide with a subheading and two columns beaneath"
+	},
+	"center": {
+		"description": "Center the content in both axis. To be placed before a heading.",
+		"scope":"asciidoc",
+		"prefix": "center",
+		"body": [
+			"[.center]"
+		]
+	}
+}
