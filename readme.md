@@ -48,5 +48,5 @@ So here is a simple boilerplate for a better author experience (AX :-3 ). Design
 
 ## Know issues
 
-- If you're in that weird tiny minority using accented characters, the search inside slides will work very unpredictably. _Hé oui_. Sorry about that.
-- Some overlap issues with big pictures.
+- The search plugin inside slides works very unpredictably with diacritics. So if you're in that weird tiny minority: _déso_ and sorry about that.
+- CSS: Some potential overlap issues with big pictures.
