@@ -38,7 +38,7 @@ So here is a simple boilerplate for a better author experience (AX :-3 ). Design
 
 ## Snippets
 
-- `img`: Add and image. steps:
+- `img`: insert insert image path with proper markup. steps:
   1. type `/images` , hit ctrl+Space to run the path auto-complete and select the file you want
   2. Ctrl+L to select the line
   3. Launch the snippet.
