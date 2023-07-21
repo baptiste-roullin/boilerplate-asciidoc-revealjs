@@ -7,7 +7,7 @@ Writing a full [Reveal.js](https://revealjs.com/) presentation in a separate fil
 So here is a simple boilerplate for a better author experience (AX :-3 ). Designed with VS Code in mind.
 
 
-## Basic demo of the result
+## Basic demo
 
 [Please this way.](https://baptiste-roullin.github.io/boilerplate-asciidoc-revealjs/)
 
