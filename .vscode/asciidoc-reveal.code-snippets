@@ -10,12 +10,6 @@
 		],
 		"description": "Add a presenter note block."
 	},
-	"Insert image block": {
-		"scope":"asciidoc",
-		"prefix": "img",
-		"body": "image::${TM_SELECTED_TEXT/\\/images\\/(.*)/$1/}$1[]",
-		"description": "Insert image block"
-	},
 	"columns": {
 		"scope":"asciidoc",
 		"prefix": "cols",
